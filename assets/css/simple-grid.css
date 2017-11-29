@@ -249,3 +249,10 @@ p {
     max-width: 60rem;
   }
 }
+
+/*responsive*/
+@media (max-width: 28.125em) {
+  [class*="col-"]{
+    width: 100%;
+  }
+}
