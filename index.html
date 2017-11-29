@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi página</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/simple-grid.css">
+  <script src="https://use.fontawesome.com/a5cf7a6c13.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- primera fila, header -->
+    <div class="row">
+      <!-- 12 columnas del header -->
+      <div id="contHeader" class="col-12">
+      <h1>mickequen</h1>
+      <a id="iconoMenu" href="#"> <i class="fa fa-bars "  aria-hidden="true"></i></a>
+      <!-- menú del header -->
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      </div>
+    </div>
+  </header>
+  <!-- contenido central de la página -->
+  <main>
+    <!-- div vacío que contiene imagen -->
+    <div class="row" id="business">
+    </div>
+    <!-- div que contiene información de la serie y link hacia netflix -->
+    <div class="row"> 
+        <div class="col-8"> 
+            <h1>F.R.I.E.N.D.S.</h1>
+            <p> serie de televisión estadounidense creada y producida por Marta Kauffman y David Crane. Se emitió por primera vez el 22 de septiembre de 1994 por la cadena NBC y terminó el 6 de mayo de 2004. </p>
+            <p>Trata sobre la vida de un grupo de amigos —Rachel Green, Monica Geller, Phoebe Buffay, Joey Tribbiani, Chandler Bing y Ross Geller— que residen en Manhattan, Nueva York.</p>
+            <button id="watch"><a href="https://www.netflix.com/title/70153404" target="_blank">Ver un Episodio>></a></button>
+        </div>
+        <!-- seccion de contacto -->
+        <div id="contact" class="col-4"> 
+          <h1>Contact Us</h1>
+          <h4>S.T.A.R Labs</h6>
+          <p>736 Central St</p>
+          <p>Central City, CA 93745</p>
+          <p>P: (569)-937-57434</p>
+          <p>M: <a href="#"> mickequeen@gmail.com</a></p>
+          
+        </div>
+    </div>
+    <!-- seccion de capitulos destacados -->
+    <div class="row">
+      <!-- primer contenedor con foto, título, resumen y link a trailer del cap -->
+      <div class="col-4" id="cardOne">
+        <img src="assets/img/The_One_With_The_Football_2.jpg" alt="The one with the football">
+        <div class="description">
+          <h1>The One with The Football</h1>
+          <p>Las chicas cocinan la cena de Acción de Gracias mientras los chicos ven un partido de fútbol americano. Todos deciden jugar un partido de fútbol americano entre ellos. Monica y Ross compiten por la copa Geller. Joey y Chandler compiten por una chica holandesa.</p>
+          <div>
+            <button><a href="https://youtu.be/rrWXUpFL3No" target="_blank">Ver trailer!</a></button>
+          </div>
+        </div>
+      </div>
+      <!-- segundo cntenedor con foto, titulo, resumen y link a trailer de cap -->
+      <div class="col-4" id="cardTwo">
+        <img src="assets/img/landscape-1431372518-screen-shot-2015-05-11-at-32819-pm.png" alt="The one in london">
+        <div class="description">
+          <h1>The One with Ross Wedding (2)</h1>
+          <p>Phoebe llama por teléfono a Londres para avisar a Emily de la llegada de Rachel. Chandler y Monica se acuestan juntos. Ross se encuentra con Rachel pero ella no le dice lo que siente. Durante la boda Ross se equivoca y llama "Rachel" a Emily.</p>
+          <div>
+            <button><a href="https://youtu.be/5-1-W-qH6Fc" target="_blank">Ver trailer!</a></button>
+          </div>
+        </div>
+      </div>
+      <!-- tercer contenedor con foto, titulo, resumen y link a trailer del cap -->
+      <div class="col-4" id="cardThree">
+        <img src="assets/img/51098695.jpg" alt="The one that could have been">
+        <div class="description">
+          <h1>The one that could have been</h1>
+          <p>Carol y Ross deciden hacer un trío para avivar su matrimonio.Chandler y Monica se acuestan y terminan juntos de todas formas. Rachel sorprende a Barry engañándola con otra. Phoebe al ser despedida empieza a cantar en el Central Perk. </p>
+          <div>
+            <button><a href="https://youtu.be/ctFCva5HNVw">Ver Trailer!</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- footer-->
+  <footer class="row">
+    <div class="col-12">
+      <h5>Copyright© mickequeen 2017</h5>
+    </div>
+  </footer>
+</body>
+</html>

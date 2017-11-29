@@ -1,0 +1,196 @@
+/*
+aplicar box sizing a todo el contenido
+*/
+*{
+  box-sizing: border-box;
+  }
+
+/*
+aplicar estilos a header, ancho, largo y color de fondo
+*/
+header{
+  width: 100%;
+  height: 4em;
+  background-color: #323030;
+  position: fixed;
+  z-index: 100;
+}
+
+/*
+dar color a titulo del header y tipo de display
+*/
+#contHeader h1{
+  color: #DBD9D9;
+  display: inline-block;
+}
+
+/*
+dar estilos a menu del header
+*/
+#contHeader ul{
+  display: inline-block;
+  float: right;
+  list-style: none;
+}
+
+/*
+posicionar elementos del menu del header
+*/
+#contHeader ul li{
+  float: left;
+  margin-right: 2em;
+}
+
+/*
+quitar estilo de link a menu de header
+*/
+#contHeader ul li a{
+  color: #DBD9D9;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/*
+dar color a icono de menu
+*/
+.fa-bars{
+  color: #DBD9D9;
+}
+
+/*
+imagen bajo el header
+*/
+#business{
+  background-image: url(../img/11103.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 25em;
+}
+
+/*
+interlineado de parrafos en área de contacto
+*/
+#contact p{
+  line-height: 0.5em;
+}
+
+/*
+color link a correo en area de contacto
+*/
+#contact p a{
+  color: blue;
+}
+
+/*
+estilo y forma de botón que redirecciona a serie
+*/
+#watch{
+  padding: 0.7em;
+  border-radius: 0.5em;
+  background-color: #A68CE2;
+  border:none;
+}
+
+/*
+quitar aspecto de link al botón
+*/
+button a{
+  text-decoration: none;  
+  color: #F6F6F6;
+  font-weight: bolder;
+}
+
+/*
+media query que condiciona tamaño, condiciones para menor tamaño
+*/
+@media (min-width: 12em) and (max-width: 57.5em){
+  #business{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 25em;
+  }
+  #iconoMenu{
+    float: right;
+    font-size: 2em;
+  }
+  #contHeader ul{
+    display: none;
+  }
+}
+
+/*
+media query para mayor tamaño
+*/
+@media (min-width: 57.5em) and (max-width: 120em){
+  #business{
+    background-position-y: -10em;
+  }
+  #iconoMenu{
+    display: none;
+  }
+}
+
+/*
+poner linea a contenedor de la descripción
+*/
+.description{
+  border-right: 1px solid #C8C7C7;
+  border-left: 1px solid #C8C7C7;
+  border-bottom: 1px solid #C8C7C7;
+}
+
+/*
+padding interior de los textos
+*/
+.description h1, .description p{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/*
+padding y estilo en el div del botón
+*/
+.description div{
+  border-top: 1px solid #C8C7C7;
+  padding: 1em;
+  background-color: #E8E7E7;
+}
+
+/*
+estilo en boton de secciones
+*/
+.description div button{
+  background-color: #8569E1;
+  padding: 0.5em;
+  padding-right: 1em;
+  padding-left: 1em;
+  border: none;
+  border-radius: 0.3em;
+}
+
+/*
+estilo de imagenes en contenedores
+*/
+#cardOne img, #cardTwo img, #cardThree img{
+  width: 100%;
+  height: 13em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+/*
+color y largo de pié de página
+*/
+footer{
+  background-color: #323030;
+  height: 6em;
+}
+
+/*
+color letras del pié de página y su ubicación
+*/
+footer div h5{
+  color:#DBD9D9;
+  text-align: center;
+}
